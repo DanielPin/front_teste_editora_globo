@@ -1,5 +1,4 @@
 import { Grid, Paper, Typography } from "@mui/material";
-import { display } from "@mui/system";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { FooterCard } from "../components/footer/FooterCard";

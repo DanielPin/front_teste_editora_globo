@@ -6,9 +6,7 @@ import { Modal } from "../modal/Modal";
 
 export function FooterCard(props) {
   const { open, setOpen, noticia } = props;
-
-  console.debug("open do footer", open);
-
+  
   return (
     <>
       <div className={style.footer}>

@@ -4,7 +4,7 @@ import {
   DialogActions,
   DialogContent,
   DialogContentText,
-  DialogTitle,
+  DialogTitle
 } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { ConexaoApiExcluirNoticia } from "../../infra/ConexaoApi";

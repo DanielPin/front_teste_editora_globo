@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { ConexaoApiLogin } from "../infra/ConexaoApi";
 import style from "../styles/Login.module.css";
