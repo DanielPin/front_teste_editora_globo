@@ -1,0 +1,42 @@
+.container {
+  width: 50vw;
+  height: 50vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 0rem;
+  position:relative;
+
+}
+
+.h2Busca {
+    color: #fff;
+    cursor: default;
+}
+
+.inputBusca{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+}
+
+.inputBusca:focus{
+    outline: none;
+    border:1px solid red;
+    box-shadow: 0 0 10px #000000;
+    
+}
+
+.btnAdd{
+    position: fixed;
+    margin-left: 90%;
+    margin-top: 15%; 
+}
+
+.cabecalho{
+    background-color:#353B50 ;
+    color: #FFFFFF !important;    
+}

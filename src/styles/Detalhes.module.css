@@ -1,0 +1,29 @@
+.container{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    font-size: 50px;
+    text-overflow: ellipsis;  
+    
+}
+.span {
+    color: white;
+    font-size: 20px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.span:hover {
+    color: #CDCCCC;
+}
+
+.icon{
+    background-color: red;
+    color: aliceblue;
+    border-radius: 50%;
+    
+}

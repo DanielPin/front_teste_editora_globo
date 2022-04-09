@@ -1,0 +1,37 @@
+:root {
+  --cor-primaria-enviar: rgb(75, 200, 138);
+  --cor-hover-enviar: rgb(116, 158, 137);
+  --cor-secundaria-enviar: rgb(255, 255, 255);
+}
+
+.container {
+  width: 50vw;
+  height: 50vh;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10rem;
+  color: white;
+}
+.logar{
+  width: 10rem;
+  margin-left: 1rem;
+  padding: 1rem;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: var(--cor-primaria-enviar);
+  outline: none;
+  color: var(--cor-secundaria-enviar);
+}
+
+.logar:hover {
+  background-color: var(--cor-hover-enviar);
+}
+
+.logar:active {
+  color: var(--cor-primaria-enviar);
+  background-color: var(--cor-secundaria-enviar);
+}

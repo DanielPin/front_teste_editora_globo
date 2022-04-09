@@ -1,0 +1,90 @@
+:root {
+  --cor-primaria-enviar: rgb(75, 200, 138);
+  --cor-hover-enviar: rgb(116, 158, 137);
+  --cor-secundaria-enviar: rgb(255, 255, 255);
+
+  --cor-primaria-cancelar: rgb(200, 75, 75);
+  --cor-hover-cancelar: rgb(158, 116, 116);
+  --cor-secundaria-cancelar: rgb(255, 255, 255);
+}
+
+.container {
+  width: 50vw;
+  height: 50vh;
+  margin: 0 auto;
+  margin-top: 1rem;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+}
+
+form {
+  margin-top: 3rem;
+}
+
+input {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+textarea {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+button {
+  width: 10rem;
+  margin-left: 1rem;
+  padding: 1rem;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #00ff7f;
+}
+
+label {
+  text-align: center;
+  padding: 0.5rem;
+  display: block;
+}
+
+.enviar {
+  background-color: var(--cor-primaria-enviar);
+  outline: none;
+  color: var(--cor-secundaria-enviar);
+}
+
+.enviar:hover {
+  background-color: var(--cor-hover-enviar);
+}
+
+.enviar:active {
+  color: var(--cor-primaria-enviar);
+  background-color: var(--cor-secundaria-enviar);
+}
+
+.cancelar {
+  background-color: var(--cor-primaria-cancelar);
+  outline: none;
+  color: var(--cor-secundaria-cancelar);
+}
+
+.cancelar:hover {
+  background-color: var(--cor-hover-cancelar);
+}
+
+.cancelar:active {
+  color: var(--cor-primaria-cancelar);
+  background-color: var(--cor-secundaria-cancelar);
+}
